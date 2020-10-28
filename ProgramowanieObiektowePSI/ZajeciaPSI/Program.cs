@@ -10,6 +10,8 @@ namespace ZajeciaPSI
     {
         static void Main(string[] args)
         {
+            Console.Write("Podaj imie: ");
+            Console.WriteLine("Witaj " + Console.ReadLine());
         }
     }
 }
